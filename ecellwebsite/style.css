@@ -28,8 +28,8 @@ html {
 }
 
 body {
-    background: var(--lightblue)
-    overflow-x hidden !important;
+    background: var(--darkblue);
+    overflow-x: hidden !important;
 }
 
 .icon-div-main {
@@ -61,7 +61,7 @@ body {
     margin: 0;
 }
 
-
+nav {}
 
 nav:after {
     content: "";
@@ -85,7 +85,7 @@ nav ul {
 }
 
 nav ul li {
-
+    float: left;
     display: inline-block;
     margin: 0 5px;
 }
